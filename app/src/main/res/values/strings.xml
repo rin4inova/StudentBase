@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StudentBase</string>
+    <string name="header">Student Base</string>
+    <string name="header2">Базы данных</string>
+    <string name="start">Начать</string>
+    <string name="students">Студенты</string>
+    <string name="groups">Группы</string>
+    <string name="add_new_student">Добавить нового студента</string>
+    <string name="show_student_list">Показать список студентов</string>
+    <string name="add_new_group">Добавить новую группу</string>
+    <string name="show_groups">Показать список групп </string>
+</resources>

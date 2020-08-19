@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "808122984178",
+    "firebase_url": "https://studentsapp-3dc5e.firebaseio.com",
+    "project_id": "studentsapp-3dc5e",
+    "storage_bucket": "studentsapp-3dc5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808122984178:android:ea64efc7c32d74b35d526b",
+        "android_client_info": {
+          "package_name": "com.glushkotutor.studentsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808122984178-rivg6okge462bq9r64m7pr034t3mcag9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glushkotutor.studentsapp",
+            "certificate_hash": "60283b7cec65f4be4494ab15363b151144838c1e"
+          }
+        },
+        {
+          "client_id": "808122984178-khcb06qssuundn4orhee9knfv1dubsqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS9ESXqEO6AW93ciLv-Nlo3Qokowu4SrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808122984178-khcb06qssuundn4orhee9knfv1dubsqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

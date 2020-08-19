@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomeText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addStudentButton"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/basebuttonstyle"
+        android:text="@string/add_new_student"
+        android:textColor="@color/colorViolet"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/goToStudentsBtn"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/basebuttonstyle"
+        android:text="@string/show_student_list"
+        android:textColor="@color/colorViolet"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addStudentButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/students"
+        android:textColor="@color/colorViolet"
+        android:textSize="45dp"
+        android:textStyle=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addGroupButton"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/basebuttonstyle"
+        android:text="@string/add_new_group"
+        android:textColor="@color/colorViolet"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/goToGroupsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/goToGroupsBtn"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/basebuttonstyle"
+        android:text="@string/show_groups"
+        android:textColor="@color/colorViolet"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/groups"
+        android:textColor="@color/colorViolet"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/addGroupButton"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
